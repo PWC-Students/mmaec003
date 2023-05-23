@@ -1,0 +1,17 @@
+/* tag selector */
+div {
+  background-color: rgb(251, 78, 4);
+  color: brown;
+  height: auto;
+  width: 100vh;
+}
+
+/* class selector */
+.firstdiv {
+  background-color: rgb(4, 187, 254);
+}
+
+/* id selector */
+#nav {
+  background-color: rgb(224, 244, 4);
+}

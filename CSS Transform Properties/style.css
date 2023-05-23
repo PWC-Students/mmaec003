@@ -1,0 +1,58 @@
+
+/* ID Selector */
+#second {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(123, 23, 7);
+  /* opacity: 0.5; */
+  transition: background-color 0.5s; ease-in-out;
+}
+
+/* Universal Selector */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Tag Selector */
+main {
+}
+
+
+#second:hover {
+  background-color: rgb(205, 218, 255);
+}
+
+
+#hero{
+    font-size: 40vh;
+    line-height: 100px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    color: white;
+    background-image: url('./samplebird.jpg');
+    background-color: black;
+    transition: line-height 1s ease-in-out, color 3s ease-in-out, width 3s ease-in-out, background-image 3s ease-in-out;
+}
+
+#hero:hover{
+    color:black;
+    background-image: url('./samplebird2.jpg');
+    background-color: white;
+    line-height: 100%;
+}
+
+/* Class Selector */
+.main_div {
+    opacity: 1;
+}
+
+/* Class Selector */
+.second_class {
+    opacity: 0.5;
+}
+

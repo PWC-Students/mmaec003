@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* div {
+  background-color: rgb(13, 0, 196);
+  color: blueviolet;
+  width: 100px;
+  height: 50px;
+} */
+
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: aqua;
+  border: 2px solid black;
+  color: black;
+  font-weight: bold;
+}
+
+.static {
+  position: static;
+  background-color: beige;
+  top: 200px;
+  left: 50px;
+}
+
+.relative {
+  position: relative;
+  background-color: blueviolet;
+  top: 200px;
+  left: 100px;
+}
+
+.absolute {
+  position: absolute;
+  background-color: darkgreen;
+}
+
+.fixed {
+  position: fixed;
+  background-color: darkkhaki;
+  width: 200vh;
+  height: 50px;
+}
+
+.sticky {
+  position: sticky;
+  background-color: brown;
+  top: 0px;
+}

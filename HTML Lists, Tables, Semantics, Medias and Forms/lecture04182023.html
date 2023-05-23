@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Lists, Tables, Some Semantics and Forms</title>
+  </head>
+  <body>
+    <h1>How to bake a cake</h1>
+
+    <h3>Preparation</h3>
+    <h3 style="color: red">Ordered Lists</h3>
+    <h5>Numbered List</h5>
+    <!-- Ordered List -->
+    <!-- type="1" is the default -->
+    <ol type="1">
+      <li>Prepare the utensils such as baking pan, spatula, whisk, etc.</li>
+      <li>
+        Make sure that your kitchen environment is clean before starting to
+        bake.
+      </li>
+      <li>Third step</li>
+      <li>Fourth step</li>
+    </ol>
+    <h5>Alphabetical List</h5>
+    <ol type="a">
+      <li>Prepare the utensils such as baking pan, spatula, whisk, etc.</li>
+      <li>
+        Make sure that your kitchen environment is clean before starting to
+        bake.
+      </li>
+      <li>Third step</li>
+      <li>Fourth step</li>
+    </ol>
+    <ol type="A">
+      <li>Prepare the utensils such as baking pan, spatula, whisk, etc.</li>
+      <li>
+        Make sure that your kitchen environment is clean before starting to
+        bake.
+      </li>
+      <li>Third step</li>
+      <li>Fourth step</li>
+    </ol>
+    <h5>Roman Numerals List</h5>
+    <ol type="I">
+      <li>Prepare the utensils such as baking pan, spatula, whisk, etc.</li>
+      <li>
+        Make sure that your kitchen environment is clean before starting to
+        bake.
+      </li>
+      <li>Third step</li>
+      <li>Fourth step</li>
+    </ol>
+
+    <ol type="i">
+      <li>Prepare the utensils such as baking pan, spatula, whisk, etc.</li>
+      <li>
+        Make sure that your kitchen environment is clean before starting to
+        bake.
+      </li>
+      <li>Third step</li>
+      <li>Fourth step</li>
+    </ol>
+    <h3 style="color: red">Unordered Lists</h3>
+    <!-- Unordered Lists -->
+    <!-- Unordered list default is bullet -->
+    <h5>Bulleted Lists</h5>
+    <ul>
+      <li>Prepare the utensils such as baking pan, spatula, whisk, etc.</li>
+      <li>
+        Make sure that your kitchen environment is clean before starting to
+        bake.
+      </li>
+      <li>Third step</li>
+      <li>Fourth step</li>
+    </ul>
+    <h5>Circle Lists</h5>
+    <ul style="list-style-type: circle">
+      <li>Prepare the utensils such as baking pan, spatula, whisk, etc.</li>
+      <li>
+        Make sure that your kitchen environment is clean before starting to
+        bake.
+      </li>
+      <li>Third step</li>
+      <li>Fourth step</li>
+    </ul>
+    <h5>Circle Lists</h5>
+    <ul style="list-style-type: square">
+      <li>Prepare the utensils such as baking pan, spatula, whisk, etc.</li>
+      <li>
+        Make sure that your kitchen environment is clean before starting to
+        bake.
+      </li>
+      <li>Third step</li>
+      <li>Fourth step</li>
+    </ul>
+    <ul style="list-style-type: none">
+      <li>Prepare the utensils such as baking pan, spatula, whisk, etc.</li>
+      <li>
+        Make sure that your kitchen environment is clean before starting to
+        bake.
+      </li>
+      <li>Third step</li>
+      <li>Fourth step</li>
+    </ul>
+
+    <h1 style="color: red">Tables</h1>
+    <table border="5">
+      <thead>
+        <!-- table header -->
+        <th>ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Section</th>
+        <th>Course</th>
+        <th>Year</th>
+        <th>Remarks</th>
+        <th>Contact Number</th>
+        <th>Address</th>
+        <th></th>
+      </thead>
+      <!-- table row -->
+      <tr>
+        <!-- table data -->
+        <td>001</td>
+        <td><strong>John</strong></td>
+        <td rowspan="2"><strong>Smith</strong></td>
+        <td>A</td>
+        <td>BS Math</td>
+        <td>2nd</td>
+        <td>A+</td>
+        <td>0902020202</td>
+        <td rowspan="4">Philippines</td>
+      </tr>
+      <tr>
+        <!-- table data -->
+        <td>002</td>
+        <td><strong>Ken</strong></td>
+        <td>ENG1</td>
+        <td style="width: 200px">BS Computer Engineering</td>
+        <td>3rd</td>
+        <td>A+</td>
+        <td>09696969696</td>
+      </tr>
+      <tr>
+        <!-- table data -->
+        <td>001</td>
+        <td><strong>Neil</strong></td>
+        <td><strong>Strong</strong></td>
+        <td>A</td>
+        <td>BS Math</td>
+        <td>2nd</td>
+        <td>A+</td>
+        <td>0902020202</td>
+      </tr>
+      <tr>
+        <!-- table data -->
+        <td>001</td>
+        <td><strong>Arman</strong></td>
+        <td><strong>Dela Cruz</strong></td>
+        <td>A</td>
+        <td>BS Math</td>
+        <td>2nd</td>
+        <td>A+</td>
+        <td>0902020202</td>
+      </tr>
+      <tr>
+        <!-- table data -->
+        <td>001</td>
+        <td><strong>Kate</strong></td>
+        <td><strong>Amantiad</strong></td>
+        <td>A</td>
+        <td>BS Math</td>
+        <td>2nd</td>
+        <td>A+</td>
+        <td>0902020202</td>
+        <td>USA</td>
+      </tr>
+    </table>
+
+    <!-- Links and Hyperlinks -->
+    <h1 style="color: red">Links and Hyperlinks</h1>
+    <a href="https://www.google.com">Google</a>
+
+    <!-- Hyperlinks -->
+    <a href="profile.html">Profile</a>
+    <a href="aboutus.html">About Us</a>
+    <a href="./data/studentlist.html">Student's List</a>
+    <a href="./images/profilepictures.html">Profile Picture</a>
+    <br />
+    <br />
+    <br />
+    <br />
+    <h1 style="color: red">Forms</h1>
+    <!-- Forms -->
+    <form action="" method="GET">
+      <!-- input tags -->
+      <label for="firstname">First Name:</label>
+      <input type="text" name="firstname" />
+      <br />
+      <label for="lastname">Lastname:</label>
+      <input type="text" name="lastname" />
+      <br />
+      <label for="email">Email:</label>
+      <input type="email" name="email" />
+      <br />
+      <label for="password">Password:</label>
+      <input type="password" name="password" />
+      <br />
+      <label for="confirmpassword">Confirm Password:</label>
+      <input type="password" name="confirmpassword" />
+      <br />
+      <input type="checkbox" name="vehicle1" value="Bike" />
+      <label for="vehicle1"> I have a bike</label>
+      <br />
+      <label for="birthday">Birthday:</label>
+      <input type="date" name="birthday" />
+      <br />
+      <!-- Checkbox -->
+      <h3>Checkbox</h3>
+      <input type="checkbox" name="vehicle2" value="Car" />
+      <label for="vehicle2"> I have a car</label><br />
+      <input type="checkbox" name="vehicle3" value="Boat" />
+      <label for="vehicle3"> I have a boat</label><br /><br />
+      <br />
+      <!-- Radio button -->
+      <h3>Radio Buttons</h3>
+      <label for="gender">Sex:</label>
+      <input type="radio" name="sex" value="Male" />Male
+      <input type="radio" name="sex" value="Female" />Female
+      <!-- select tag -->
+      <h3>Select</h3>
+      <select name="civilstatus" id="">
+        <option value="single">Single</option>
+        <option value="married">Married</option>
+        <option value="widowed">Widowed</option>
+        <option value="divorced">Divorced</option>
+      </select>
+      <br />
+      <br />
+      <br />
+      <input type="submit" value="Confirm" />
+    </form>
+  </body>
+</html>
